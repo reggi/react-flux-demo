@@ -1,0 +1,19 @@
+{
+  "name": "react-flux-demo",
+  "version": "1.0.0",
+  "description": "In an effort to learn react & flux I'm going through the motions to create a demo project that demonstrates the functionality.",
+  "main": "index.js",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
