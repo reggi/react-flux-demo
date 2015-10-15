@@ -10,11 +10,12 @@
     "react-dom": "^0.14.0"
   },
   "devDependencies": {
+    "browserify": "^11.2.0",
     "reactify": "^1.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -t reactify main.js > bundle.js"
+    "build": "./node_modules/.bin/browserify -t reactify main.js > bundle.js"
   },
   "author": "",
   "license": "ISC"
