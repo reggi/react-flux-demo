@@ -7,12 +7,14 @@
     "flux": "^2.1.1",
     "object-assign": "^4.0.1",
     "react": "^0.14.0",
-    "react-dom": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies": {
     "reactify": "^1.1.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t reactify main.js > bundle.js"
   },
   "author": "",
   "license": "ISC"
